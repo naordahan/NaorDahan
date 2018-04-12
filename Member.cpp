@@ -4,7 +4,7 @@ using namespace std;
 
     Member::Member()
     {
-        MemberNum++;
+        Member::MemberNum++;
     }
     Member::~Member()
     {
@@ -64,5 +64,5 @@ void Member::unfollow(Member& f_name){
     int Member::count()
     {
         
-        return MemberNum;
+        return Member::MemberNum;
     }
